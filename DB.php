@@ -6,5 +6,4 @@ if(!$cone)
 {
 die(mysqli_error($cone));
 }
-
 ?>
