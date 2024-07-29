@@ -1,5 +1,5 @@
 <?php
-//DB Connection
+//DB Connection 
 $cone=new mysqli("localhost","root","","crud");
 
 if(!$cone)
