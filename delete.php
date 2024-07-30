@@ -13,7 +13,7 @@ if(isset($_GET['deleteid']))
         header('location:index.php');
     }else{
         die(mysqli_error($cone));
-    }
+        }
 
 }
 
