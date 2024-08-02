@@ -9,7 +9,7 @@ if(isset($_POST["Save"]))
     $phone=$_POST["Phone"];
     $password=$_POST["Password"];
 
-    $sql="insert into crud_table (Name,Email,Phone,Password) values ('$name','$email','$phone','$password');";
+    $sql="insert into `crud_table` (`Name`,`Email`,`Phone`,`Password`) values ('$name','$email','$phone','$password');";
 
     $resalt=mysqli_query($cone,$sql);
 

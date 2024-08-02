@@ -1,9 +1,10 @@
 <?php
-//DB Connection 
-$cone=new mysqli("localhost","root","","crud");
+
+$cone=new mysqli('localhost','root','','crud');
 
 if(!$cone)
 {
-die(mysqli_error($cone));
+    die(mysqli_error($cone));
 }
+
 ?>
